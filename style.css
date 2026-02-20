@@ -1,17 +1,14 @@
-/* Universal Selector - Module 3 */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* Body - Element Selector - Module 3 */
 body {
     font-family: Arial, sans-serif;
     background-color: #6a7fdb;
     color: #333333;
 }
 
-/* Container - Class Selector - Module 3 */
 .container {
     width: 1200px;
     margin-left: auto;
@@ -20,7 +17,6 @@ body {
     padding-right: 40px;
 }
 
-/* Header - Element Selector - Module 3 */
 header {
     background-color: white;
     padding-top: 20px;
@@ -28,12 +24,10 @@ header {
     border-bottom: 3px solid #6a7fdb;
 }
 
-/* Header Content - Class Selector - Module 3 */
 .header-content {
     text-align: left;
 }
 
-/* Logo - Class Selector, font properties - Module 3 */
 .logo {
     font-size: 28px;
     font-weight: bold;
@@ -48,13 +42,11 @@ header {
     color: #764ba2;
 }
 
-/* Header Controls - Class Selector - Module 3 */
 .header-controls {
     display: inline-block;
     float: right;
 }
 
-/* City Select - Class Selector, border properties - Module 3 */
 .city-select {
     padding: 10px;
     border: 2px solid #6a7fdb;
@@ -65,7 +57,6 @@ header {
     cursor: pointer;
 }
 
-/* My Tickets Button - Class Selector - Module 3 */
 .my-tickets-btn {
     padding: 10px;
     background-color: #6a7fdb;
@@ -76,14 +67,12 @@ header {
     cursor: pointer;
 }
 
-/* Filter Section - Class Selector - Module 3 */
 .filter-section {
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
 }
 
-/* Filter Button - Class Selector, border properties - Module 3 */
 .filter-btn {
     padding: 12px;
     margin: 5px;
@@ -94,14 +83,12 @@ header {
     cursor: pointer;
 }
 
-/* Active Filter Button - Class Selector - Module 3 */
 .filter-btn.active {
     background-color: #6a7fdb;
     color: white;
     border: 2px solid #6a7fdb;
 }
 
-/* Section Title - Class Selector, text properties - Module 3 */
 .section-title {
     text-align: center;
     font-size: 32px;
@@ -110,12 +97,10 @@ header {
     text-shadow: 2px 2px 4px #000000;
 }
 
-/* Events Grid - ID Selector - Module 3 */
 #eventsGrid {
     margin-bottom: 50px;
 }
 
-/* Event Card - Class Selector, border properties - Module 3 */
 .event-card {
     background-color: white;
     border: 3px solid #333333;
@@ -126,18 +111,15 @@ header {
     vertical-align: top;
 }
 
-/* Event Image - Class Selector - Module 3 */
 .event-image {
     width: 100%;
     height: 200px;
 }
 
-/* Event Details - Class Selector, padding - Module 3 */
 .event-details {
     padding: 20px;
 }
 
-/* Event Category - Class Selector - Module 3 */
 .event-category {
     display: inline-block;
     padding: 5px;
@@ -149,7 +131,6 @@ header {
     margin-bottom: 10px;
 }
 
-/* Event Title - Class Selector - Module 3 */
 .event-title {
     font-size: 18px;
     font-weight: bold;
@@ -157,14 +138,12 @@ header {
     color: #333333;
 }
 
-/* Event Info - Class Selector - Module 3 */
 .event-info {
     font-size: 14px;
     color: #666666;
     margin-bottom: 5px;
 }
 
-/* Event Price - Class Selector - Module 3 */
 .event-price {
     font-size: 22px;
     font-weight: bold;
@@ -172,12 +151,10 @@ header {
     margin-top: 15px;
 }
 
-/* Tickets Section - ID Selector - Module 3 */
 #ticketsSection {
     display: none;
 }
 
-/* Ticket Card - Class Selector - Module 3 */
 .ticket-card {
     background-color: white;
     border: 3px solid #333333;
@@ -185,7 +162,6 @@ header {
     margin-bottom: 20px;
 }
 
-/* Ticket Image - Class Selector - Module 3 */
 .ticket-image {
     width: 120px;
     height: 100px;
@@ -194,45 +170,38 @@ header {
     margin-right: 20px;
 }
 
-/* Ticket Info - Class Selector - Module 3 */
 .ticket-info {
     display: inline-block;
 }
 
-/* Ticket Title - Class Selector - Module 3 */
 .ticket-title {
     font-size: 20px;
     font-weight: bold;
     color: #333333;
 }
 
-/* Ticket Detail - Class Selector - Module 3 */
 .ticket-detail {
     font-size: 14px;
     color: #666666;
 }
 
-/* Ticket Pricing - Class Selector - Module 3 */
 .ticket-pricing {
     float: right;
     text-align: right;
 }
 
-/* Ticket Total - Class Selector - Module 3 */
 .ticket-total {
     font-size: 22px;
     font-weight: bold;
     color: #6a7fdb;
 }
 
-/* Empty State - Class Selector - Module 3 */
 .empty-state {
     text-align: center;
     padding: 60px;
     color: white;
 }
 
-/* Modal Overlay - ID Selector - Module 3 */
 #modalOverlay {
     display: none;
     position: fixed;
@@ -245,7 +214,6 @@ header {
     overflow-y: scroll;
 }
 
-/* Modal - Class Selector, border properties - Module 3 */
 .modal {
     background-color: white;
     border: 4px solid #333333;
@@ -258,7 +226,6 @@ header {
     overflow-y: scroll;
 }
 
-/* Modal Close Button - Class Selector - Module 3 */
 .modal-close {
     position: absolute;
     top: 15px;
@@ -272,18 +239,15 @@ header {
     z-index: 10;
 }
 
-/* Modal Image - Class Selector - Module 3 */
 .modal-image {
     width: 100%;
     height: 250px;
 }
 
-/* Modal Content - Class Selector - Module 3 */
 .modal-content {
     padding: 30px;
 }
 
-/* Modal Title - Class Selector - Module 3 */
 .modal-title {
     font-size: 26px;
     font-weight: bold;
@@ -291,7 +255,6 @@ header {
     color: #333333;
 }
 
-/* Info Item - Class Selector, border properties - Module 3 */
 .info-item {
     padding: 12px;
     background-color: #f5f5f5;
@@ -299,13 +262,11 @@ header {
     margin-bottom: 8px;
 }
 
-/* Info Label - Class Selector - Module 3 */
 .info-label {
     font-weight: bold;
     color: #666666;
 }
 
-/* Booking Section - Class Selector - Module 3 */
 .booking-section {
     background-color: #6a7fdb;
     padding: 25px;
@@ -319,13 +280,11 @@ header {
     font-size: 20px;
 }
 
-/* Quantity Selector - Class Selector - Module 3 */
 .quantity-selector {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Quantity Button - Class Selector - Module 3 */
 .qty-btn {
     width: 40px;
     height: 40px;
@@ -338,7 +297,6 @@ header {
     margin: 5px;
 }
 
-/* Quantity Value - ID Selector - Module 3 */
 #qtyValue {
     font-size: 24px;
     font-weight: bold;
@@ -346,7 +304,6 @@ header {
     margin-right: 10px;
 }
 
-/* Total Price - Class Selector - Module 3 */
 .total-price {
     font-size: 20px;
     font-weight: bold;
@@ -356,7 +313,6 @@ header {
     text-align: center;
 }
 
-/* Book Button - Class Selector - Module 3 */
 .book-btn {
     width: 100%;
     padding: 15px;
@@ -368,7 +324,6 @@ header {
     cursor: pointer;
 }
 
-/* Back Home Button - Class Selector - Module 3 */
 .back-home-btn {
     padding: 12px;
     background-color: white;
@@ -380,7 +335,6 @@ header {
     margin-bottom: 20px;
 }
 
-/* Footer - Class Selector - Module 3 */
 .footer {
     background-color: #333333;
     padding: 30px;
@@ -389,14 +343,12 @@ header {
     border-top: 3px solid white;
 }
 
-/* Creators text - Class Selector - Module 3 */
 .creators {
     font-size: 14px;
     color: white;
     font-weight: bold;
 }
 
-/* Clearfix utility */
 .clearfix {
     clear: both;
 }
