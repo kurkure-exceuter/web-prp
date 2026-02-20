@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NightOut - Discover & Book Events Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">
+                    <span class="logo-night">Night</span><span class="logo-out">Out</span>
+                </h1>
+                <div class="header-controls">
+                    <select id="cityFilter" class="city-select">
+                        <option value="all">All Cities</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Pune">Pune</option>
+                    </select>
+                    <button class="my-tickets-btn" id="myTicketsBtn">My Tickets</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="filter-section">
+            <button class="filter-btn active" data-category="all">All Events</button>
+            <button class="filter-btn" data-category="Music">Music</button>
+            <button class="filter-btn" data-category="Comedy">Comedy</button>
+            <button class="filter-btn" data-category="Workshop">Workshop</button>
+            <button class="filter-btn" data-category="Nightlife">Nightlife</button>
+        </div>
+
+        <div id="eventsSection">
+            <h2 class="section-title">Discover Events</h2>
+            <div id="eventsGrid"></div>
+        </div>
+
+        <div id="ticketsSection">
+            <h2 class="section-title">My Tickets</h2>
+            <button class="back-home-btn" id="backHomeBtn">Back to Events</button>
+            <div id="ticketsGrid"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p class="creators">Created by JANMEJAY SHARMA and VEDANT GOEL</p>
+        </div>
+    </div>
+
+    <!-- Modal Popup -->
+    <div id="modalOverlay">
+        <div class="modal">
+            <button class="modal-close" id="modalClose">X</button>
+            <img id="modalImage" class="modal-image" src="" alt="">
+            <div class="modal-content">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <div class="modal-info">
+                    <div class="info-item">
+                        <span class="info-label">Date: </span>
+                        <span id="modalDate"></span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Venue: </span>
+                        <span id="modalVenue"></span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Category: </span>
+                        <span id="modalCategory"></span>
+                    </div>
+                </div>
+                <div class="booking-section">
+                    <h3>Book Tickets</h3>
+                    <div class="quantity-selector">
+                        <button class="qty-btn" id="decreaseBtn">-</button>
+                        <span id="qtyValue">1</span>
+                        <button class="qty-btn" id="increaseBtn">+</button>
+                    </div>
+                    <div class="total-price">
+                        <span>Total: </span>
+                        <span id="totalPrice">0</span>
+                    </div>
+                    <button class="book-btn" id="bookBtn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
